@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Simple landing page</title>
+</head>
+<body id="bs-override">
+    <!-- container-fluid: a full width container, spanning the entire width of the viewport
+        d-flex: set display mode to flex
+        justify-content-center: change alignment of flex items on the main axis (horizontal centering in this case)
+        align-items-center:  change the alignment of flex items on the cross axis (vertical centering in this case)
+        NOTE: the flexbox container MUST have vertical height specified for vertical
+        centering, and 'height:100%' doesn't work - need to use 'height:100vh'
+    -->
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="card text-center p-5">
+            <div class="card-body">
+                <!-- <div class="btn-group mb-3" role="group" aria-label="main button group"> -->
+                <div class="d-flex justify-content-around btn-wrapper">
+                    <button type="button" class="btn btn-outline-dark btn-responsive">Home</button>
+                    <button type="button" class="btn btn-outline-dark btn-responsive">About</button>
+                    <button type="button" class="btn btn-outline-dark btn-responsive">Contact</button>
+                </div>
+            </div>
+            <h1 class="card-title">Omar Hussain</h1>
+            <p class="card-text">
+                Electrical Engineer &bull; Full-stack developer
+            </p>
+            <p class="card-text">
+                <a href="mailto:omar.hussain@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                <a href="https://twitter.com/OmarHussainX"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://github.com/OmarHussainX"><i class="fab fa-github fa-2x"></i></a>
+            </p>
+        </div>
+    </div>
+
+
+
+<!-- ================================================================== -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
